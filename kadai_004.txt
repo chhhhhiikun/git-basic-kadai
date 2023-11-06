@@ -1,0 +1,13 @@
+PS C:\Users\chhhhhiikun\Desktop\kadai> mkdir git_challenge
+PS C:\Users\chhhhhiikun\Desktop\kadai> cd .\git_challenge\
+PS C:\Users\chhhhhiikun\Desktop\kadai\git_challenge> git add hello_world.txt
+PS C:\Users\chhhhhiikun\Desktop\kadai\git_challenge> git commit -m "hello_world.txtを追加"
+[main (root-commit) 80b3ce3] hello_world.txtを追加
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hello_world.txt
+PS C:\Users\chhhhhiikun\Desktop\kadai\git_challenge> git add hello_world.txt
+PS C:\Users\chhhhhiikun\Desktop\kadai\git_challenge> git commit -m "日本語訳を追記"
+[main 570d5ad] 日本語訳を追記
+PS C:\Users\chhhhhiikun\Desktop\kadai\git_challenge> git log --oneline
+570d5ad (HEAD -> main) 日本語訳を追記
+80b3ce3 hello_world.txtを追加
